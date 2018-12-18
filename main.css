@@ -1,0 +1,390 @@
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  display: inline;
+  top:0;
+  width: 100%;
+  display: grid;
+  font-size: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 3;
+}
+
+
+.navbar a{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 25px;
+
+}
+
+
+.navbar a:hover {
+ border: 1px solid #333;
+    border-bottom: 2px solid yellow ;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background:  #e066ff;
+    color: red;
+}
+
+.signupBar {
+
+  position: fixed;
+  display: inline;
+  bottom:0%;
+}
+
+
+.navbar img{
+    width: 200px;
+    height: 100px;
+}
+
+.link{
+    justify-self: right;
+    align-self: center;
+    margin-left:30px;
+}
+
+.link a{
+    margin-right: 40px;
+}
+
+
+.tryBannar {
+    background: url("./pic/try.jpeg");
+    min-height: 861px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tryBannar-text{
+    background: rgba(60,60,60,0.6);
+   border-radius: 15px;
+}
+.tryBannar-text-backgrnd{
+    
+    padding-top: 35%;
+    margin-left: 45%;
+}
+
+.tryBannar-text p{
+    font-size: 30px;
+    color: #e066ff;
+   font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.tryClass{
+    text-decoration: none;
+     background-position: center;
+     margin-left: 300px;
+     border-radius: 25px;
+     font-size: 30px;
+     color: orange;
+     background-color:yellow;
+}
+
+.location{
+    text-decoration: none;
+     background-position: center;
+     border-radius: 25px;
+     font-size: 30px;
+     color: orange;
+     background-color:yellow;
+}
+
+.trainerBannar {
+    background: url("./pic/trainer.jpeg");
+    min-height: 861px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.trainerBannar-text{
+    background: rgba(60,60,60,0.6);
+   border-radius: 25px;
+}
+.trainerBannar-text-backgrnd{
+    
+    padding-top: 30%;
+    margin-left: 45%;
+}
+
+.trainerBannar-text p{
+    font-size: 30px;
+    color: #e066ff;
+   font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+.findBannar {
+    background: url("./pic/find.jpeg");
+    min-height: 861px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.findBannar-text{
+    background: rgba(60,60,60,0.6);
+   border-radius: 25px;
+}
+.findBannar-text-backgrnd{
+    
+    padding-top: 30%;
+    margin-left: 45%;
+}
+
+.findBannar-text p{
+    font-size: 30px;
+    color: #e066ff;
+   font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+.tryText{    
+    font-family: 'Mali', cursive;
+    font-size: 30px;
+    background:black;
+    padding: 30px;
+    text-align: center;
+    
+} 
+
+.tryText p{
+    color:white;
+}
+
+.tryText h3{
+    margin:30px;
+    color:white;
+}
+
+.tryText h2{
+    margin:30px;
+    color:white;
+}
+
+
+
+/* join Page*/
+
+.form {
+    text-align: center;
+    background-color:white;
+    margin-top: 105px;
+}
+
+.form-bannar p{
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    color:violet;
+    background-color: black;
+    border: 5px dashed red;
+}
+.creating{
+    font-family: 'Lato', sans-serif;
+}
+
+.star{
+    color:red;
+}
+
+.creating{
+    font-size:30px;
+}
+
+.credit{
+    text-align: center;
+}
+.cc{
+    width:25%;
+    height: 10%;
+}
+
+#info{
+    display: grid;  
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+#promo1{
+    margin-top: 300px;
+}
+
+#promo2{
+    margin-left: 0px;
+    margin-top: 300px;
+}
+
+.fa-twitter{
+    color:lightblue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:purple;
+}
+.social-media i:hover{
+    color:#fff;
+    border-bottom: 2px solid white;
+
+}
+
+.golden{
+    background:white;
+    border: 5px dotted gold; 
+}
+.regular{
+
+    background:white;
+    border: 5px dotted brown; 
+}
+
+#list1{
+    font-size: auto;
+    background-color: black;
+    color: gold;
+    font-family: 'Hind', sans-serif;
+}
+
+#list2{
+    font-size: auto;
+    background-color: black;
+    color: brown;
+    font-family: 'Hind', sans-serif;
+}
+
+.pay{
+    font-family: 'Lato', sans-serif;
+}
+
+.subbutton{
+    text-decoration: none;
+     background-position: center;
+     border-radius: 25px;
+     font-size: 30px;
+     color: white;
+     background-color:green;
+}
+
+.checkbox{
+       font-family: 'Mali', cursive;
+      background-color: brown;
+      font-size: 20px;
+      color: white;
+      border-radius: 2px;
+}
+
+.checkbox2{
+       font-family: 'Mali', cursive;
+      background-color: gold;
+      font-size: 20px;
+      color: white;
+      border-radius: 2px;
+}
+
+/* classes */
+
+#classes{
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+#classes h1{
+    font-size: 50px;
+    background:#333;
+    text-align: center;
+    padding:30px;
+    color:#fff;
+    font-family: 'Hind', sans-serif;
+}
+
+.scheduel{
+ margin-top: 0px;
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+
+}
+
+.time{
+    font-size: 50px;
+    margin-left: 900px;
+    color: white;
+    background: gray;
+}
+
+.try{
+    height:50px;
+    width: 200px;
+     text-decoration: none;
+     font-size: 30px;
+     color: orange;
+     background-color:yellow;
+
+}
+
+.book{
+    height:50px;
+    width: 200px;
+     text-decoration: none;
+     font-size: 30px;
+     color: yellow;
+     background-color:orange;
+
+}
+
+.name{
+    background:white;
+    padding: 5px;
+}
+
+.name h2:hover{
+    border: 1px solid #333;
+    border-bottom: 5px solid yellow ;
+    border-radius: 15px;
+    padding: 20px 20px;
+    background:  green;
+}
+
+.try:hover{
+     border: 1px solid #333;
+    border-bottom: 2px solid yellow ;
+    padding: 10px 10px;
+    background:  red;
+}
+
+.book:hover{
+    border: 1px solid #333;
+    border-bottom: 2px solid yellow ;
+    padding: 10px 10px;
+    background:  red;
+}
+
+
+section img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+body{
+    min-height: 100%;
+    margin:0%;
+    background-color:violet;
+}
+html { height: 100%; }
+footer {
+    height: 120px;
+    text-align: center;
+}
